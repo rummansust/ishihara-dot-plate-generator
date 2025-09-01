@@ -1,0 +1,298 @@
+{
+  "character": "Y",
+  "character_area": 1638322,
+  "background_area": 14747982,
+  "total_area": 16386304,
+  "palettes": [
+    {
+      "palette": "Gray Green Brown",
+      "summary": [
+        {
+          "image": "run_1.png",
+          "inside_coverage": 0.6007738273487637,
+          "inside_dot_count": 134,
+          "background_coverage": 0.4678669646721551,
+          "background_dot_count": 1160,
+          "time_sec": 4.18
+        },
+        {
+          "image": "run_2.png",
+          "inside_coverage": 0.6001141842060638,
+          "inside_dot_count": 186,
+          "background_coverage": 0.4644492962389966,
+          "background_dot_count": 1129,
+          "time_sec": 4.17
+        },
+        {
+          "image": "run_3.png",
+          "inside_coverage": 0.6009349029998882,
+          "inside_dot_count": 157,
+          "background_coverage": 0.46743496320229355,
+          "background_dot_count": 1185,
+          "time_sec": 4.13
+        }
+      ]
+    },
+    {
+      "palette": "Olive Orange",
+      "summary": [
+        {
+          "image": "run_1.png",
+          "inside_coverage": 0.6017019299100052,
+          "inside_dot_count": 95,
+          "background_coverage": 0.46974237933717194,
+          "background_dot_count": 1170,
+          "time_sec": 4.17
+        },
+        {
+          "image": "run_2.png",
+          "inside_coverage": 0.6007968381560672,
+          "inside_dot_count": 131,
+          "background_coverage": 0.4860306241061223,
+          "background_dot_count": 1224,
+          "time_sec": 4.27
+        },
+        {
+          "image": "run_3.png",
+          "inside_coverage": 0.6025533297802345,
+          "inside_dot_count": 101,
+          "background_coverage": 0.4886379702555772,
+          "background_dot_count": 1209,
+          "time_sec": 4.1
+        }
+      ]
+    },
+    {
+      "palette": "Yellow Green Red",
+      "summary": [
+        {
+          "image": "run_1.png",
+          "inside_coverage": 0.6035351242251836,
+          "inside_dot_count": 100,
+          "background_coverage": 0.4735179188104515,
+          "background_dot_count": 1183,
+          "time_sec": 4.15
+        },
+        {
+          "image": "run_2.png",
+          "inside_coverage": 0.6009195624616861,
+          "inside_dot_count": 146,
+          "background_coverage": 0.4707520869146563,
+          "background_dot_count": 1109,
+          "time_sec": 4.18
+        },
+        {
+          "image": "run_3.png",
+          "inside_coverage": 0.6007814976178649,
+          "inside_dot_count": 131,
+          "background_coverage": 0.4748999826844434,
+          "background_dot_count": 1195,
+          "time_sec": 4.15
+        }
+      ]
+    },
+    {
+      "palette": "Classic Green Red",
+      "summary": [
+        {
+          "image": "run_1.png",
+          "inside_coverage": 0.6001525355515694,
+          "inside_dot_count": 153,
+          "background_coverage": 0.4612259006561887,
+          "background_dot_count": 1179,
+          "time_sec": 4.24
+        },
+        {
+          "image": "run_2.png",
+          "inside_coverage": 0.6008888813852814,
+          "inside_dot_count": 135,
+          "background_coverage": 0.46683084280361176,
+          "background_dot_count": 1239,
+          "time_sec": 4.21
+        },
+        {
+          "image": "run_3.png",
+          "inside_coverage": 0.600589740890336,
+          "inside_dot_count": 157,
+          "background_coverage": 0.48260358286000843,
+          "background_dot_count": 1172,
+          "time_sec": 4.14
+        }
+      ]
+    },
+    {
+      "palette": "Blue Green Orange",
+      "summary": [
+        {
+          "image": "run_1.png",
+          "inside_coverage": 0.6007738273487636,
+          "inside_dot_count": 162,
+          "background_coverage": 0.4665598833018066,
+          "background_dot_count": 1132,
+          "time_sec": 4.35
+        },
+        {
+          "image": "run_2.png",
+          "inside_coverage": 0.6030749080791135,
+          "inside_dot_count": 159,
+          "background_coverage": 0.4849749045377637,
+          "background_dot_count": 1154,
+          "time_sec": 4.24
+        },
+        {
+          "image": "run_3.png",
+          "inside_coverage": 0.6008351895015737,
+          "inside_dot_count": 131,
+          "background_coverage": 0.4740487608532971,
+          "background_dot_count": 1290,
+          "time_sec": 4.2
+        }
+      ]
+    },
+    {
+      "palette": "Blue Purple Pink",
+      "summary": [
+        {
+          "image": "run_1.png",
+          "inside_coverage": 0.6008965516543827,
+          "inside_dot_count": 162,
+          "background_coverage": 0.4694347806574486,
+          "background_dot_count": 1200,
+          "time_sec": 4.35
+        },
+        {
+          "image": "run_2.png",
+          "inside_coverage": 0.6004823571229201,
+          "inside_dot_count": 115,
+          "background_coverage": 0.4726879988269311,
+          "background_dot_count": 1177,
+          "time_sec": 4.1
+        },
+        {
+          "image": "run_3.png",
+          "inside_coverage": 0.6008351895015736,
+          "inside_dot_count": 176,
+          "background_coverage": 0.4669518372981304,
+          "background_dot_count": 1174,
+          "time_sec": 4.37
+        }
+      ]
+    },
+    {
+      "palette": "Turquoise Pink",
+      "summary": [
+        {
+          "image": "run_1.png",
+          "inside_coverage": 0.6018323244847252,
+          "inside_dot_count": 149,
+          "background_coverage": 0.4940350063701661,
+          "background_dot_count": 1416,
+          "time_sec": 4.07
+        },
+        {
+          "image": "run_2.png",
+          "inside_coverage": 0.6005283787375266,
+          "inside_dot_count": 189,
+          "background_coverage": 0.47821625432289955,
+          "background_dot_count": 1306,
+          "time_sec": 4.11
+        },
+        {
+          "image": "run_3.png",
+          "inside_coverage": 0.6003826436246053,
+          "inside_dot_count": 149,
+          "background_coverage": 0.5000199734792437,
+          "background_dot_count": 1383,
+          "time_sec": 4.11
+        }
+      ]
+    },
+    {
+      "palette": "Teal Red Brown",
+      "summary": [
+        {
+          "image": "run_1.png",
+          "inside_coverage": 0.6015561947970829,
+          "inside_dot_count": 123,
+          "background_coverage": 0.48885184080574307,
+          "background_dot_count": 1342,
+          "time_sec": 4.13
+        },
+        {
+          "image": "run_2.png",
+          "inside_coverage": 0.6052455942347431,
+          "inside_dot_count": 133,
+          "background_coverage": 0.49968681258236797,
+          "background_dot_count": 1400,
+          "time_sec": 4.13
+        },
+        {
+          "image": "run_3.png",
+          "inside_coverage": 0.6002982706644917,
+          "inside_dot_count": 123,
+          "background_coverage": 0.4876461562300957,
+          "background_dot_count": 1388,
+          "time_sec": 4.12
+        }
+      ]
+    },
+    {
+      "palette": "Green Yellow Brown",
+      "summary": [
+        {
+          "image": "run_1.png",
+          "inside_coverage": 0.6013184164549467,
+          "inside_dot_count": 112,
+          "background_coverage": 0.5017062277373381,
+          "background_dot_count": 1413,
+          "time_sec": 4.11
+        },
+        {
+          "image": "run_2.png",
+          "inside_coverage": 0.6064498264836267,
+          "inside_dot_count": 87,
+          "background_coverage": 0.5035782341067354,
+          "background_dot_count": 1401,
+          "time_sec": 4.14
+        },
+        {
+          "image": "run_3.png",
+          "inside_coverage": 0.6004440057774139,
+          "inside_dot_count": 144,
+          "background_coverage": 0.4839830905122827,
+          "background_dot_count": 1335,
+          "time_sec": 4.22
+        }
+      ]
+    },
+    {
+      "palette": "Gray Blue Pink",
+      "summary": [
+        {
+          "image": "run_1.png",
+          "inside_coverage": 0.6013414272622503,
+          "inside_dot_count": 151,
+          "background_coverage": 0.5006675496470833,
+          "background_dot_count": 1342,
+          "time_sec": 4.18
+        },
+        {
+          "image": "run_2.png",
+          "inside_coverage": 0.6007661570796625,
+          "inside_dot_count": 208,
+          "background_coverage": 0.4788229309432944,
+          "background_dot_count": 1363,
+          "time_sec": 4.26
+        },
+        {
+          "image": "run_3.png",
+          "inside_coverage": 0.6009502435380907,
+          "inside_dot_count": 157,
+          "background_coverage": 0.4909164158776816,
+          "background_dot_count": 1399,
+          "time_sec": 4.22
+        }
+      ]
+    }
+  ]
+}

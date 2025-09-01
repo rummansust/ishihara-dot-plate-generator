@@ -1,0 +1,26 @@
+[
+  {
+    "image": "run_1.png",
+    "inside_coverage": 0.600166450796649,
+    "inside_dot_count": 195,
+    "background_coverage": 0.4911637342156899,
+    "background_dot_count": 1323,
+    "time_sec": 4.1
+  },
+  {
+    "image": "run_2.png",
+    "inside_coverage": 0.6000697449843324,
+    "inside_dot_count": 189,
+    "background_coverage": 0.4831791452294449,
+    "background_dot_count": 1424,
+    "time_sec": 4.17
+  },
+  {
+    "image": "run_3.png",
+    "inside_coverage": 0.6026502632393099,
+    "inside_dot_count": 254,
+    "background_coverage": 0.4855403009683397,
+    "background_dot_count": 1287,
+    "time_sec": 4.27
+  }
+]
