@@ -62,3 +62,6 @@ coverage.xml
 
 # Mac
 .DS_Store
+
+# Ignore runtime session file
+src/app/resources/session.json
