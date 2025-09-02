@@ -1,2 +1,5 @@
 pillow
 customtkinter
+pytest
+pytest-cov
+numpy
