@@ -1,0 +1,1 @@
+{"selected_images": [{"char": "A", "path": "dummyA.png"}, {"char": "B", "path": "dummyB.png"}], "current_index": 2, "score": 1, "answered": [{"input": "A", "correct": "A", "result": true}, {"input": "Z", "correct": "B", "result": false}], "finished": true}
