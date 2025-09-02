@@ -3,6 +3,16 @@ import tkinter as tk
 from src.app.gui.main_window import PlateGameApp
 
 
+# Ensure tests won't try to open a real X display in CI by using a hidden Tk subclass
+class HiddenTk(tk.Tk):
+  def __init__(self, *a, **kw):
+    super().__init__(*a, **kw)
+    try:
+      self.withdraw()
+    except Exception:
+      pass
+
+
 def test_app_initializes(monkeypatch):
   # Patch build_image_pool to avoid file IO
   monkeypatch.setattr('app.utils.image_pool.build_image_pool', lambda: [
