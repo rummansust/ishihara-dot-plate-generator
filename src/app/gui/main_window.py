@@ -19,6 +19,13 @@ class PlateGameApp:
   def __init__(self, root):
     self.root = root
     self.root.title('Ishihara Plate Game')
+    # Sound file paths (set early so show_image()/show_summary() can call play_sound)
+    base = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../resources'))
+    self.sound_buzz = os.path.join(base, 'buzz.mp3')
+    self.sound_correct = os.path.join(base, 'correct.mp3')
+    self.sound_cheer = os.path.join(base, 'cheer.mp3')
+    self.sound_trumpet = os.path.join(base, 'trumpet_fail.mp3')
+
     self.pool = build_image_pool()
     self.session = GameSession(self.pool)
     if not self.session.load():

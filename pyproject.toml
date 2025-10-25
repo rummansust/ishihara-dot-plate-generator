@@ -16,9 +16,9 @@ dependencies = [
     "customtkinter",
     "pytest",
     "pytest-cov",
-    "numpy"
-    ,"playsound"
-    ,"pyobjc"
+    "numpy",
+    "playsound",
+    "pyobjc",
 ]
 
 [tool.setuptools.packages.find]
