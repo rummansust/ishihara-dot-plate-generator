@@ -3,3 +3,5 @@ customtkinter
 pytest
 pytest-cov
 numpy
+playsound
+pyobjc

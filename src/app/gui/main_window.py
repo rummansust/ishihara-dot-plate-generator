@@ -7,6 +7,13 @@ from PIL import Image, ImageTk
 from app.core.session import GameSession
 from app.utils.image_pool import build_image_pool
 
+# Sound support
+import threading
+try:
+  from playsound import playsound
+except ImportError:
+  playsound = None
+
 
 class PlateGameApp:
   def __init__(self, root):
@@ -18,6 +25,17 @@ class PlateGameApp:
       self.session.start_new()
     self.setup_ui()
     self.show_image()
+
+    # Sound file paths
+    base = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../resources'))
+    self.sound_buzz = os.path.join(base, 'buzz.mp3')
+    self.sound_correct = os.path.join(base, 'correct.mp3')
+    self.sound_cheer = os.path.join(base, 'cheer.mp3')
+    self.sound_trumpet = os.path.join(base, 'trumpet_fail.mp3')
+
+  def play_sound(self, path):
+    if playsound and os.path.exists(path):
+      threading.Thread(target=playsound, args=(path,), daemon=True).start()
 
   def setup_ui(self):
     self.root.geometry('1000x820')
@@ -143,14 +161,17 @@ class PlateGameApp:
     if not user_input:
       self.feedback.configure(text='❗ Please enter a character.', fg='orange', bg='#e3f2fd')
       self.feedback.lift()
+      self.play_sound(self.sound_buzz)
       return
     self.entry.delete(0, tk.END)  # Clear entry immediately
     self.entry.configure(state='disabled')
     self.next_btn.configure(state='disabled')
     is_correct, correct = self.session.answer(user_input)
     if is_correct:
+      self.play_sound(self.sound_correct)
       self.show_feedback('✅ Correct!', 'green')
     else:
+      self.play_sound(self.sound_buzz)
       self.show_feedback(f'❌ Wrong! Correct: {correct}', 'red')
 
   def show_feedback(self, message, color):
@@ -166,9 +187,11 @@ class PlateGameApp:
     if total > 0 and score / total < 0.5:
       msg = f'❌ Game Over!!!\t|\tScore: {score}/{total}\nKeep practicing!'
       color = '#e53935'  # vibrant red
+      self.play_sound(self.sound_trumpet)
     else:
       msg = f'🎉 Game Over!!!\t|\tScore: {score}/{total}\nGreat job!'
       color = '#2ecc40'  # vibrant green
+      self.play_sound(self.sound_cheer)
     # Update score label to show final score
     self.score_label.configure(text=f'Score: {score}/{total}   |   Plate {total} of {total}')
     # Show restart button at top left (always)

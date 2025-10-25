@@ -17,6 +17,8 @@ dependencies = [
     "pytest",
     "pytest-cov",
     "numpy"
+    ,"playsound"
+    ,"pyobjc"
 ]
 
 [tool.setuptools.packages.find]
